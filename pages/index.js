@@ -20,6 +20,18 @@ import me from '../public/me.jpg'
 import { MdOutlineMailOutline } from "react-icons/md"
 import { SiGooglescholar } from "react-icons/si"
 
+export const BioSection = ({ children }) => (
+  <Box display="flex" flexDirection="column" alignItems="flex-start" mb={4}>
+    {children}
+  </Box>
+)
+
+export const BioYear = ({ children }) => (
+  <Box fontWeight="bold" mr={2}>
+    {children}
+  </Box>
+)
+
 const Home = () => (
   <Layout>
     <Container maxW="container.md">
