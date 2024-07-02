@@ -1,4 +1,4 @@
-# Nico's Homepage
+# Yves's Homepage
 
 This is the repo of my [personal webpage](https://yvesnana.github.io)
 
