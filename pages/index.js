@@ -18,6 +18,7 @@ import Image from 'next/image'
 import { mode } from '@chakra-ui/theme-tools'
 import me from '../public/me.jpg'
 import { MdOutlineMailOutline } from "react-icons/md"
+import { FaGoogleScholar } from "react-icons/fa6";
 
 
 const Home = () => (
@@ -119,9 +120,22 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Links
         </Heading>
         <List spacing={0}>
+          <ListItem>
+            <Link href="yves.g.nana@gmail.com" target="_blank">
+              <Button
+                variant="ghost"
+                style={{"textAlign": "left !important", "paddingLeft": "0px"}}
+                colorScheme={mode('#319795', '#ff63c3')}
+                leftIcon={<MdOutlineMailOutline />}
+                paddingLeft={0}
+              >
+                Email
+              </Button>
+            </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://twitter.com/YvesGNT" target="_blank">
               <Button
@@ -141,7 +155,7 @@ const Home = () => (
                 variant="ghost"
                 style={{"textAlign": "left !important", "paddingLeft": "0px"}}
                 colorScheme={mode('#319795', '#ff63c3')}
-                leftIcon={<MdOutlineMailOutline />}
+                leftIcon={<FaGoogleScholar />}
                 paddingLeft={0}
               >
                 Google Scholar
