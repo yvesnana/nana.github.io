@@ -122,7 +122,7 @@ const Home = () => (
           On the web
         </Heading>
         <List spacing={0}>
-            <ListItem>
+          <ListItem>
             <Link href="https://twitter.com/YvesGNT" target="_blank">
               <Button
                 variant="ghost"
@@ -134,6 +134,7 @@ const Home = () => (
                 X/Twitter
               </Button>
             </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://scholar.google.com/citations?user=nvNyJiIAAAAJ&hl=en" target="_blank">
               <Button
