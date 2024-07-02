@@ -10,8 +10,8 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Yves Gaetan Nana Teukam" />
-        <meta name="keywords" content="Yves Gaetan Nana Teukam, ibm research zurich, computational biology, bioinformatics, molecular machine learning, molml" />
-        <title>Yves Gaetan Nana Teuakm - IBM Research Zürich</title>
+        <meta name="keywords" content="Yves Gaetan Nana Teukam, phd, ibm research zurich, computational biology, bioinformatics, molecular machine learning, molml" />
+        <title>Yves Gaetan Nana Teukam</title>
         <meta
           name="description"
           content="Check Yves Gaetan's work as PhD candidate in Biomedical Engineering at IBM Research Zürich and Eindhoven University of Technology"
