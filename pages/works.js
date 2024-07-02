@@ -6,29 +6,6 @@ import { WorkGridItem, WorkGridItemNoLink, WorkGridItemExternal, LinkGridItem } 
 const Works = () => (
   <Layout title="Works" duration={0.5}>
     <Container maxW="container.md">
-      <Heading as="h3" variant="section-title">
-        Data Apps
-      </Heading>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-      <Section>
-          <LinkGridItem 
-          href="https://app.bde.es/efs_www/home?lang=EN"
-          title="Spanish Survey of Household Finance (ECF) website"
-          meta1={"2020"}
-          >
-          </LinkGridItem>
-        </Section>
-
-        <Section>
-          <LinkGridItem 
-          href="https://app.bde.es/efs_ecf/home?lang=EN"
-          title="Survey of Financial Competences (ECF) website"
-          meta1={"2023"}
-          >
-          </LinkGridItem>
-        </Section>
-      </SimpleGrid>
 
       <Section delay={0.2}>
         <Divider my={6} />
@@ -41,72 +18,50 @@ const Works = () => (
 
       <Section delay={0.3}>
           <LinkGridItem
-            href="FortezaLabeaga_v1.pdf"
-            title="Pollution, Density and Urban Access Regulations: European Evidence"
+            href="https://www.sciencedirect.com/science/article/pii/S2001037024000953"
+            title="Language models can identify enzymatic binding sites in protein sequences"
             meta_color_2={"green"}
-            meta2="DRAFT"
+            meta2="PAPER"
             meta1="2024"
             >
-              with José M. Labeaga
+              with Loïc Kwate Dassi, Matteo Manica, Daniel Probst, Philippe Schwaller, and Teodoro Laino
           </LinkGridItem>
         </Section>
 
       <Section delay={0.3}>
           <LinkGridItem
-            href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/24/Files/dt2417e.pdf"
-            title="Analysing the VAT Cut Pass-Through in Spain using Supermarkets' Web-scraped Data and Machine Learning"
+            href="https://chemrxiv.org/engage/chemrxiv/article-details/65f0746b9138d23161510400"
+            title="Integrating Genetic Algorithms and Language Models for Enhanced Enzyme Design"
             meta_color_2={"green"}
-            meta2="Working Paper"
+            meta2="PREPRINT"
             meta1="2024"
             >
-            with Elvira Prades and Marc Roca
+            with Federico Zipoli, Teodoro Laino, Emanuele Criscuolo, Francesca Grisoni, and Matteo Manica
           </LinkGridItem>
         </Section>
 
         <Section delay={0.3}>
           <LinkGridItem
-          href="https://www.bde.es/f/webbe/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosTrabajo/23/Files/dt2330e.pdf" 
-          title="A Score Function to Prioritize Editing in Household Survey Data: A Machine Learning Approach"
-          meta1="2023"
-          meta2="Working Paper"
-          meta_color_2={"green"}
-          >
-          with Sandra García-Uribe
+            href="https://www.nature.com/articles/s41524-023-01028-1.pdf"
+            title="Accelerating material design with the generative toolkit for scientific discovery"
+            meta_color_2={"green"}
+            meta2="PAPER"
+            meta1="2023"
+            >
+            with Manica Matteo, Jannis Born, Joris Cadow, Dimitrios Christofidellis, Ashish Dave, Dean Clarke et al.
           </LinkGridItem>
         </Section>
 
         <Section delay={0.3}>
-          <WorkGridItemNoLink
-          id="styly" 
-          title="News Concentration"
-          meta1="2023"
-          meta2="Work in Progress"
-          meta_color_2={"red"}
-          >
-          with Sandra García-Uribe
-          </WorkGridItemNoLink>
-        </Section>
-
-        <Section delay={0.3}>
-          <WorkGridItemNoLink
-            title="Measuring non-Workers Labor Market Attachment with Machine Learning"
+          <LinkGridItem
+            href="https://www.nature.com/articles/s41467-022-28536-w"
+            title="Biocatalysed synthesis planning using data-driven learning"
             meta_color_2={"green"}
-            meta2="Draft soon!"
-            meta1="2023"
+            meta2="PAPER"
+            meta1="2022"
             >
-            with Sergio Puente García
-          </WorkGridItemNoLink>
-        </Section>
-
-        <Section delay={0.3}>
-          <WorkGridItemNoLink
-            title="Evaluating the Measurement of Household Expectations with Audio Recordings"
-            meta_color_2={"red"}
-            meta2="Work in Progress"
-            meta1="2024"
-            >
-            with Javier J. Alonso and Laura Crespo
-          </WorkGridItemNoLink>
+            with Probst Daniel, Matteo Manica, Alessandro Castrogiovanni, Federico Paratore, and Teodoro Laino
+          </LinkGridItem>
         </Section>
 
       </SimpleGrid>
