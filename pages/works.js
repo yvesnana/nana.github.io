@@ -69,7 +69,7 @@ const Works = () => (
       <Section delay={0.4}>
         <Divider my={6}/>
         <Heading as="h3" variant="section-title">
-          Discussions
+          Awards
         </Heading>
       </Section>
       
@@ -77,13 +77,23 @@ const Works = () => (
 
       <Section delay={0.4}>
           <LinkGridItem
-            href="CrashNarratives_discussion.pdf"
-            title="Crash Narratives"
-            meta1="2024"
+            href="https://conferences.computer.org/services/2022/awards/oss_award.html"
+            title="1st IEEE Open Software Service Awards as part of the GT4SD team"
+            meta1="2022"
             >
-            by William N. Goetzmann, Dasol Kim and Robert J. Shiller at ECONDAT 2024
+            by Manica Matteo, Jannis Born, Joris Cadow, Dimitrios Christofidellis, Ashish Dave, Dean Clarke et al.
           </LinkGridItem>
         </Section>
+      <Section delay={0.4}>
+          <LinkGridItem
+            href="https://scg.ch/component/pages/page-sandmeyer"
+            title="Sandmeyer Award of the Swiss Chemical Society as part of the RXN for Chemistry team"
+            meta1="2022"
+            >
+            by Alain Vaucher, Daniel Probst, Philippe Schwaller, Theophile Gaudin, Teodoro Laino, Matteo Manica et al.
+          </LinkGridItem>
+        </Section>
+        
 
       </SimpleGrid>
 
@@ -97,24 +107,15 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={1}>
 
       <Section delay={0.5}>
-          <WorkGridItemNoLink
-           title="ggBdE"
-           meta1={"2023"}
-           >
-          Proprietary R library to customize ggPlot graphics according to the Bank of Spain corporate image.
-          </WorkGridItemNoLink>
+          <LinkGridItem
+            href="https://github.com/GT4SD"
+            title="GT4SD"
+            meta1="2022"
+            >
+            GT4SD aims to accelerate scientific discovery by creating an open community around generative models, making them accessible and easier to use for scientists. Their open-source library, gt4sd-core, provides tools for generating hypotheses and fine-tuning AI models, facilitating the adoption of generative AI in scientific research.
+          </LinkGridItem>
         </Section>
-
-        <Section delay={0.5}>
-          <WorkGridItemExternal
-          href={"https://github.com/nicoforteza/expden"}
-          title="Experienced Density"
-          meta1={"2023"}
-          >
-            Python library for the computation of novel economic geography measures.
-          </WorkGridItemExternal>
-        </Section>
-
+              
       </SimpleGrid>
 
     </Container>
