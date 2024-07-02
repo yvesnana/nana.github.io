@@ -163,7 +163,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://orcid.org/0009-0003-7227-9338" target="_blank">
+            <Link href="https://orcid.org/0000-0002-6954-5119" target="_blank">
               <Button
                 variant="ghost"
                 style={{"textAlign": "left !important", "paddingLeft": "0px"}}
