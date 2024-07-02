@@ -19,7 +19,7 @@ const Footer = () => {
       style={{ position: 'relative' }}
     >
     <Box align="center" opacity={0.4} fontSize="sm">
-      &copy; {new Date().getFullYear()} Nicolás Forteza. All Rights Reserved.
+      &copy; {new Date().getFullYear()} Yves Gaetan Nana Teukam. All Rights Reserved.
     </Box>
     </motion.div>
   )
