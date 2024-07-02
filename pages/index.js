@@ -86,10 +86,7 @@ const Home = () => (
         English, French, Italian, and Spanish. Strongly committed to driving innovative 
         projects, fostering collaboration, and achieving team goals.
           
-          In addition, I contribute to research on multiple Economics topics using data science techniques. I invite you to take a look at <span></span>
-          <Link as={NextLink} href="/works" passHref scroll={false}>
-            my work.
-          </Link>
+          
         </Paragraph>
       </Section>
 
