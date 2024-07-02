@@ -128,7 +128,7 @@ const Home = () => (
         </Heading>
         <List spacing={0}>
           <ListItem>
-            <Link href="https://twitter.com/YvesGNT" target="_blank">
+            <Link href="https://twitter.com/nicoforteza1" target="_blank">
               <Button
                 variant="ghost"
                 style={{"textAlign": "left !important", "paddingLeft": "0px"}}
@@ -141,7 +141,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/nana-yves/" target="_blank">
+            <Link href="https://www.linkedin.com/in/nicoforteza/" target="_blank">
               <Button
                 variant="ghost"
                 style={{"textAlign": "left !important", "paddingLeft": "0px"}}
@@ -150,7 +150,18 @@ const Home = () => (
               >  Linkedin
               </Button>
             </Link>
-          </ListItem
+          </ListItem>
+          <ListItem>
+            <Link href="https://orcid.org/0009-0003-7227-9338" target="_blank">
+              <Button
+                variant="ghost"
+                style={{"textAlign": "left !important", "paddingLeft": "0px"}}
+                colorScheme={mode('#319795', '#ff63c3')}
+                leftIcon={<IoFileTraySharp />}
+              >  Orcid
+              </Button>
+            </Link>
+          </ListItem>
         </List>
       </Section>
     </Container>
