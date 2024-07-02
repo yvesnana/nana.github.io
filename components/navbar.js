@@ -75,9 +75,6 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/stuff" path={path}>
-            Random Stuff
-          </LinkItem>
           <LinkItem href='../cv.pdf' path={path} target="blank_">
             CV
           </LinkItem>
@@ -100,9 +97,6 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
                   Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/stuff">
-                  Stuff
                 </MenuItem>
                 <MenuItem as={MenuLink} href='../cv.pdf'>
                   CV
