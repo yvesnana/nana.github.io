@@ -71,21 +71,15 @@ const Home = () => (
         >
         Hi! I'm a data scientist based in Zürich. I have 4 years of experience in developing 
         AI/ML-based tools to address complex biological problems. I'm currently completing a Ph.D. in Biomedical Engineering 
-        with a focus on Language Modelling for Protein Design at 
-        <Link as={NextLink} href="https://research.ibm.com/labs/zurich/" target='blank_' passHref scroll={false}>IBM Research Zürich</Link>
-        and 
-        <Link as={NextLink} href="https://www.tue.nl/en/" target='blank_' passHref scroll={false}>Eindhoven University of Technology</Link>,
+        with a focus on Language Modelling for Protein Design at <Link as={NextLink} href="https://research.ibm.com/labs/zurich/" target='blank_' passHref scroll={false}> IBM Research Zürich</Link>
+        and <Link as={NextLink} href="https://www.tue.nl/en/" target='blank_' passHref scroll={false}> Eindhoven University of Technology</Link>,
         expecting to graduate in January 2025. My expertise includes machine learning, generative modelling, NLP, Omics, and bioinformatics. 
         I have a proven track record of optimizing biomolecules and enhancing model performance for biocatalysis, drug discovery, and green chemistry. 
-        I'm proficient in advanced machine learning frameworks and deep learning libraries, such as 
-        <Link as={NextLink} href="https://www.tensorflow.org/" target='blank_' passHref scroll={false}>TensorFlow</Link>,
-        <Link as={NextLink} href="https://huggingface.co/docs/transformers/index" target='blank_' passHref scroll={false}>Transformers</Link>,
-        and 
-        <Link as={NextLink} href="https://pytorch.org/" target='blank_' passHref scroll={false}>PyTorch</Link>,
-        for analyzing and modeling complex biological datasets. I've also contributed to open-source projects like 
-        <Link as={NextLink} href="https://github.com/GT4SD" target='blank_' passHref scroll={false}>GT4SD</Link>
-        and published in high-impact journals like 
-        <Link as={NextLink} href="https://www.nature.com/comms/" target='blank_' passHref scroll={false}>Nature Communications</Link>. 
+        I'm proficient in advanced machine learning frameworks and deep learning libraries, 
+        such as <Link as={NextLink} href="https://www.tensorflow.org/" target='blank_' passHref scroll={false}> TensorFlow</Link>, <Link as={NextLink} href="https://huggingface.co/docs/transformers/index" target='blank_' passHref scroll={false}> Transformers</Link>,
+        and <Link as={NextLink} href="https://pytorch.org/" target='blank_' passHref scroll={false}> PyTorch</Link>,
+        for analyzing and modeling complex biological datasets. I've also contributed to open-source projects like <Link as={NextLink} href="https://github.com/GT4SD" target='blank_' passHref scroll={false}> GT4SD</Link>
+        and published in high-impact journals like  <Link as={NextLink} href="https://www.nature.com/comms/" target='blank_' passHref scroll={false}> Nature Communications</Link>. 
         I am fluent in English, French, Italian, and Spanish. I am strongly committed to driving innovative projects, fostering collaboration, and achieving team goals.
         </Paragraph>
       </Section>
