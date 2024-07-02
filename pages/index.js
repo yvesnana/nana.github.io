@@ -45,8 +45,8 @@ const Home = () => (
             borderColor="whiteAlpha.800"
             borderWidth={0}
             borderStyle="solid"
-            w="100px"
-            h="100px"
+            w="200px"
+            h="200px"
             display="inline-block"
             borderradius="full"
             overflow="hidden"
@@ -55,8 +55,8 @@ const Home = () => (
               src={me}
               alt="Profile image"
               borderradius="full"
-              width="100"
-              height="100"
+              width="200"
+              height="200"
             />
           </Box>
         </Box>
