@@ -1,6 +1,6 @@
 # Nico's Homepage
 
-This is the repo of my [personal webpage](https://nicoforteza.github.io/web/)
+This is the repo of my [personal webpage](https://yvesnana.github.io)
 
 ## Stack
 
