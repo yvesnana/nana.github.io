@@ -14,7 +14,7 @@ const Main = ({ children, router }) => {
         <title>Yves Gaetan Nana Teuakm - IBM Research Zürich</title>
         <meta
           name="description"
-          content="Check Yves Gaetan's work as PhD candidate in Buomedical Engineering at IBM Research Zürich and Eindhoven University of Technology"
+          content="Check Yves Gaetan's work as PhD candidate in Biomedical Engineering at IBM Research Zürich and Eindhoven University of Technology"
           key="desc"
         />
       </Head>
