@@ -107,23 +107,13 @@ const Home = () => (
         </BioSection>
       </Section>
 
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Contact
-        </Heading>
-        <BioSection>
-          <BioYear>Email</BioYear>
-          yves.g.nana@gmail.com
-        </BioSection>
-      </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           Links
         </Heading>
         <List spacing={0}>
           <ListItem>
-            <Link href="yves.g.nana@gmail.com" target="_blank">
+            <Link href="mailto:yves.g.nana@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 style={{"textAlign": "left !important", "paddingLeft": "0px"}}
