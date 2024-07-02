@@ -18,7 +18,7 @@ import Image from 'next/image'
 import { mode } from '@chakra-ui/theme-tools'
 import me from '../public/me.jpg'
 import { MdOutlineMailOutline } from "react-icons/md"
-import { FaGoogleScholar } from "react-icons/fa6"
+import { SiGooglescholar } from "react-icons/si"
 
 const Home = () => (
   <Layout>
@@ -154,7 +154,7 @@ const Home = () => (
                 variant="ghost"
                 style={{"textAlign": "left !important", "paddingLeft": "0px"}}
                 colorScheme={mode('#319795', '#ff63c3')}
-                leftIcon={<FaGoogleScholar />}
+                leftIcon={<SiGooglescholar />}
                 paddingLeft={0}
               >
                 Google Scholar
