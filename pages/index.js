@@ -13,7 +13,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin, IoFileTraySharp } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGoogle, IoLogoLinkedin, IoFileTraySharp } from 'react-icons/io5'
 import Image from 'next/image'
 import { mode } from '@chakra-ui/theme-tools'
 import me from '../public/me.jpg'
@@ -121,7 +121,7 @@ const Home = () => (
           On the web
         </Heading>
         <List spacing={0}>
-          <ListItem>
+            <ListItem>
             <Link href="https://twitter.com/YvesGNT" target="_blank">
               <Button
                 variant="ghost"
@@ -131,6 +131,18 @@ const Home = () => (
                 paddingLeft={0}
               >
                 X/Twitter
+              </Button>
+            </Link>
+          <ListItem>
+            <Link href="https://scholar.google.com/citations?user=nvNyJiIAAAAJ&hl=en" target="_blank">
+              <Button
+                variant="ghost"
+                style={{"textAlign": "left !important", "paddingLeft": "0px"}}
+                colorScheme={mode('#319795', '#ff63c3')}
+                leftIcon={<IoLogoGoogle />}
+                paddingLeft={0}
+              >
+                Google Scholar
               </Button>
             </Link>
           </ListItem>
