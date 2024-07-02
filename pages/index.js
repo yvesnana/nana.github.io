@@ -30,9 +30,9 @@ const Home = () => (
           variant="page-title"
           style={{'letterSpacing': '-0.3px'}}
           >
-            <h1>Yves Gaetan Nana Teukam</h1>
+            <h1>Nicolás Forteza</h1>
           </Heading>
-          <p>Data Scientist and PhD candidate</p>
+          <p>Data Scientist</p>
         </Box>
         <Box
           flexShrink={0}
@@ -63,30 +63,37 @@ const Home = () => (
 
       <Section delay={0.1}>
 
+      <Heading as="h3" variant="section-title">
+          Forthcoming Conferences:
+        </Heading>
+
+        <Paragraph>
+        <Link as={NextLink} href="https://ww2.amstat.org/meetings/jsm/2024/" target='blank_' passHref scroll={false}>
+            Joint Statistical Meeting {}
+          </Link>
+           (JSM) of the American Statistical Association (Portland, August 2024)
+        </Paragraph>
+
         <Heading as="h3" variant="section-title">
           About me
         </Heading>
         <Paragraph
         
         >
-        Detail-oriented Data Scientist with 4 years of experience in developing AI/ML-based 
-        tools to address complex biological problems. Currently completing a Ph.D. in Biomedical 
-        Engineering with a focus on Language Modelling for Protein Design at <Link as={NextLink} href="https://research.ibm.com/labs/zurich" target='blank_' passHref scroll={false}>
-            IBM Research Zürich
-          </Link> 
-        and <Link as={NextLink} href="https://www.tue.nl/en/" target='blank_' passHref scroll={false}>
-            Eindhoven University of Technology
-          </Link>, with expected graduation in January 2025. Expert 
-        in machine learning, generative modelling, NLP, Omics, and bioinformatics. Proven 
-        track record of optimizing biomolecules and enhancing model performance for biocatalysis, 
-        drug discovery, and green chemistry. Proficient in advanced machine learning frameworks and 
-        deep learning libraries, including TensorFlow, Transformers, and PyTorch, for analysing 
-        and modelling complex biological datasets. Contributed to open-source projects such 
-        as GT4SD and published in high impact journals like Nature Communications. Fluent in 
-        English, French, Italian, and Spanish. Strongly committed to driving innovative 
-        projects, fostering collaboration, and achieving team goals.
-          
-          
+        Hi! I'm a data scientist based in Madrid who enjoys creating data products and 
+        research in economics. I currently work at the DG of Economics, Statistics 
+        and Research of the {' '}
+          <Link as={NextLink} href="https://www.bde.es/bde/es/" target='blank_' passHref scroll={false}>
+            Bank of Spain
+          </Link>
+          . I'm part of the team that conducts the {' '}
+          <Link as={NextLink} href="https://app.bde.es/efs_www/home?lang=ES" target='blank_' passHref scroll={false}>
+            Spanish Survey of Household Finances
+          </Link>
+          . In addition, I contribute to research on multiple Economics topics using data science techniques. I invite you to take a look at <span></span>
+          <Link as={NextLink} href="/works" passHref scroll={false}>
+            my work.
+          </Link>
         </Paragraph>
       </Section>
 
@@ -94,21 +101,31 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-          <BioSection>
-          <BioYear>2022 to present</BioYear>
-          Ph.D. in Biomedical Engineering at IBM Research Zürich & Eindhoven University of Technology (Zürich & Eindhoven)
-        </BioSection>
-          <BioSection>
-          <BioYear>09/2019 to 10/2021</BioYear>
-          M.Sc. in Data Science at the University of Rome - La Sapienza (Roma)
+        <BioSection>
+          <BioYear>1994</BioYear>
+          Born and raised in Spain, Argentinian descendant.
         </BioSection>
         <BioSection>
-          <BioYear>09/2018 to 02/2019 </BioYear>
-          Exchange Program Erasmus at ESCI – Universitat Pompeu Fabra (UPF) (Barcelona)
+          <BioYear>2016</BioYear>
+          B.Sc. Economics and Finance at Universidad Autónoma de Madrid.
         </BioSection>
         <BioSection>
-          <BioYear>09/2016 to 06/2019 </BioYear>
-          B.Sc. in Bioinformatics at the University of Rome - La Sapienza (Roma)
+          <BioYear>2017</BioYear>
+          M.Sc. Data Science at CUNEF and worked at {''} 
+          <Link href="https://www.etsfactory.com/" target="_blank">
+              ETS Asset Management.
+          </Link>
+        </BioSection>
+        <BioSection>
+          <BioYear>2018</BioYear>
+          Worked at {''} 
+          <Link href="https://keepler.io/" target="_blank">
+              Keepler Data Tech.
+          </Link>
+        </BioSection>
+        <BioSection>
+          <BioYear>2020 to present</BioYear>
+          Working at the Bank of Spain.
         </BioSection>
       </Section>
 
@@ -118,7 +135,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>Email</BioYear>
-          yves.g.nana@gmail.com
+          nicolas.forteza@bde.es
         </BioSection>
       </Section>
 
@@ -127,6 +144,18 @@ const Home = () => (
           On the web
         </Heading>
         <List spacing={0}>
+          <ListItem>
+            <Link href="https://github.com/nicoforteza" target="_blank">
+              <Button
+                variant="ghost"
+                style={{"textAlign": "left !important", "paddingLeft": "0px"}}
+                colorScheme={mode('#319795', '#ff63c3')}
+                leftIcon={<IoLogoGithub />}
+              >
+                Github
+              </Button>
+            </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://twitter.com/nicoforteza1" target="_blank">
               <Button

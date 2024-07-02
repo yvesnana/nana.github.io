@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import Head from 'next/head'
 import { GridItemStyle } from '../grid-item'
+import React from 'react';
 
 const variants = {
   hidden: { opacity: 0, x: 0, y: 20 },
@@ -8,15 +9,15 @@ const variants = {
   exit: { opacity: 0, x: -0, y: 20 }
 }
 
-const Layout = ({ children, title }) => {
-  const t = `${title} - Takuya Matsuyama`
+const Layout = ({ children, title, duration }) => {
+  const t = `${title} - Nicolás Forteza`
   return (
     <motion.article
       initial="hidden"
       animate="enter"
       exit="exit"
       variants={variants}
-      transition={{ duration: 0.4, type: 'easeInOut' }}
+      transition={{ duration: duration, type: 'easeInOut' }}
       style={{ position: 'relative' }}
     >
       <>

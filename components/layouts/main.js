@@ -1,45 +1,30 @@
 import Head from 'next/head'
-import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
-import Footer from '../footer'
-import VoxelDogLoader from '../voxel-dog-loader'
+import React from 'react';
 
-const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
-  ssr: false,
-  loading: () => <VoxelDogLoader />
-})
 
 const Main = ({ children, router }) => {
   return (
-    <Box as="main" pb={8}>
+    <Box as="main" pb={12}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Takuya's homepage" />
-        <meta name="author" content="Takuya Matsuyama" />
-        <meta name="author" content="craftzdog" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Takuya Matsuyama" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
-        <meta property="og:site_name" content="Takuya Matsuyama" />
-        <meta name="og:title" content="Takuya Matsuyama" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Takuya Matsuyama - Homepage</title>
+        <meta name="author" content="Nicolás Forteza" />
+        <meta name="keywords" content="nicolas forteza, bde, banco de españa, bank of spain" />
+        <title>Nicolás Forteza - Data Scientist</title>
+        <meta
+          name="description"
+          content="Check Nicolás Forteza's work as a Data Scientist at the Banco de España (Bank of Spain)"
+          key="desc"
+        />
       </Head>
 
       <NavBar path={router.asPath} />
 
-      <Container maxW="container.md" pt={14}>
-        <LazyVoxelDog />
+      <Container maxW="container.md" pt={24}>
 
         {children}
 
-        <Footer />
       </Container>
     </Box>
   )
