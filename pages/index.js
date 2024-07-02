@@ -18,8 +18,7 @@ import Image from 'next/image'
 import { mode } from '@chakra-ui/theme-tools'
 import me from '../public/me.jpg'
 import { MdOutlineMailOutline } from "react-icons/md"
-import { FaGoogleScholar } from "react-icons/fa6";
-
+import { FaGoogleScholar } from "react-icons/fa6"
 
 const Home = () => (
   <Layout>
