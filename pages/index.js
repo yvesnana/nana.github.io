@@ -13,10 +13,11 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoGoogle, IoLogoLinkedin, IoFileTraySharp } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoLinkedin, IoFileTraySharp } from 'react-icons/io5'
 import Image from 'next/image'
 import { mode } from '@chakra-ui/theme-tools'
 import me from '../public/me.jpg'
+import { MdOutlineMailOutline } from "react-icons/md"
 
 
 const Home = () => (
@@ -139,7 +140,7 @@ const Home = () => (
                 variant="ghost"
                 style={{"textAlign": "left !important", "paddingLeft": "0px"}}
                 colorScheme={mode('#319795', '#ff63c3')}
-                leftIcon={<IoLogoGoogle />}
+                leftIcon={<MdOutlineMailOutline />}
                 paddingLeft={0}
               >
                 Google Scholar
