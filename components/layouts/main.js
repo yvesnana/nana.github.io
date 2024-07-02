@@ -9,12 +9,12 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={12}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Nicolás Forteza" />
-        <meta name="keywords" content="nicolas forteza, bde, banco de españa, bank of spain" />
-        <title>Nicolás Forteza - Data Scientist</title>
+        <meta name="author" content="Yves Gaetan Nana Teukam" />
+        <meta name="keywords" content="Yves Gaetan Nana Teukam, ibm research zurich, computational biology, bioinformatics, molecular machine learning, molml" />
+        <title>Yves Gaetan Nana Teuakm - IBM Research Zürich</title>
         <meta
           name="description"
-          content="Check Nicolás Forteza's work as a Data Scientist at the Banco de España (Bank of Spain)"
+          content="Check Yves Gaetan's work as PhD candidate in Buomedical Engineering at IBM Research Zürich and Eindhoven University of Technology"
           key="desc"
         />
       </Head>
