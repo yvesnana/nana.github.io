@@ -94,7 +94,7 @@ const Home = () => {
 
           <Box mb={6}>
             <Paragraph sx={{ textAlign: 'justify', mb: 4 }}>
-              My research has been published in leading journals such as Nature Communications and the Computational and Structural Biotechnology Journal. I have received recognition for my contributions, including the IEEE Open Software Service Award and the Sandmeyer Award from the Swiss Chemical Society.
+              My research has been published in leading journals such as Nature Communications and the Computational and Structural Biotechnology Journal. In 2022, our IBM Research team was awarded the IEEE Open Software Services Award for GT4SD (Generative Toolkit for Scientific Discovery).
             </Paragraph>
           </Box>
 
