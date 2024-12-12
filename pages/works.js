@@ -36,7 +36,7 @@ const Works = () => (
             meta2="PREPRINT"
             meta1="2024"
             >
-            Teukam, Yves Gaetan Nana, et al.
+            Yves Gaetan Nana Teukam et al.
           </LinkGridItem>
         </Section>
 
@@ -48,7 +48,7 @@ const Works = () => (
             meta2="PREPRINT"
             meta1="2024"
             >
-            Teukam, Yves Gaetan Nana, et al. 
+            Yves Gaetan Nana Teukam et al. 
           </LinkGridItem>
         </Section>
 
@@ -60,7 +60,7 @@ const Works = () => (
             meta2="PAPER"
             meta1="2023"
             >
-            M. Manica, J. Born, J. Cadow, D. Christofidellis, A. Dave, D. Clarke, Teukam, Yves Gaetan Nana, et al.
+            M. Manica, J. Born, J. Cadow, D. Christofidellis, A. Dave, D. Clarke, Yves Gaetan Nana Teukam, et al.
           </LinkGridItem>
         </Section>
 
@@ -72,7 +72,7 @@ const Works = () => (
             meta2="PAPER"
             meta1="2022"
             >
-            D. Probst, M. Manica, Teukam, Yves Gaetan Nana, A. Castrogiovanni, F. Paratore,  T. Laino
+            D. Probst, M. Manica, Yves Gaetan Nana Teukam, A. Castrogiovanni, F. Paratore,  T. Laino
           </LinkGridItem>
         </Section>
 
@@ -93,16 +93,7 @@ const Works = () => (
             title="1st IEEE Open Software Service Awards as part of the GT4SD team"
             meta1="2022"
             >
-            by Manica Matteo, Jannis Born, Joris Cadow, Dimitrios Christofidellis, Ashish Dave, Dean Clarke et al.
-          </LinkGridItem>
-        </Section>
-      <Section delay={0.4}>
-          <LinkGridItem
-            href="https://scg.ch/component/pages/page-sandmeyer"
-            title="Sandmeyer Award of the Swiss Chemical Society as part of the RXN for Chemistry team"
-            meta1="2022"
-            >
-            by Alain Vaucher, Daniel Probst, Philippe Schwaller, Theophile Gaudin, Teodoro Laino, Matteo Manica et al.
+            by M. Manica, J. Cadow, D. Christofidellis, A. Dave, J. Born, D. Clarke, Yves Gaetan Nana Teukam et al.
           </LinkGridItem>
         </Section>
         
